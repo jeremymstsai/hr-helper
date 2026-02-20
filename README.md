@@ -47,6 +47,14 @@ This project is configured to automatically deploy to GitHub Pages using GitHub 
 - Go to Settings > Pages
 - Set Source to `GitHub Actions`
 
+### Manual Deployment (Optional)
+
+If you prefer to deploy manually to a `gh-pages` branch:
+1. Run `npm run deploy`
+2. Change GitHub Pages Source setting to **Deploy from a branch** and select `gh-pages`.
+
+**Note:** This is an alternative to the GitHub Actions method described above. You typically choose one or the other.
+
 ## 🛠️ Technology Stack
 
 - React 18
