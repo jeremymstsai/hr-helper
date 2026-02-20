@@ -61,4 +61,3 @@ If you prefer to deploy manually to a `gh-pages` branch:
 - TypeScript
 - Vite
 - Tailwind CSS
-
