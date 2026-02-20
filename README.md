@@ -2,38 +2,55 @@
 <img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
 </div>
 
-# Run and deploy your AI Studio app
+# HR Helper
 
-This contains everything you need to run your app locally.
+A React application for managing lucky draws and group splitting.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1rcKDHocMJydMCBea0k6wPv5UHuv3yOkt
+## 🚀 Getting Started
 
-## Run Locally
+### Prerequisites
 
-**Prerequisites:**  Node.js
+- Node.js (v20 or higher recommended)
+- npm
 
-1. Install dependencies:
+### Installation
+
+1. Clone the repository
+2. Install dependencies:
    ```bash
    npm install
    ```
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key (if applicable)
-3. Run the app:
-   ```bash
-   npm run dev
-   ```
 
-## Build for Production
+### Development
 
-To create a production build:
+Run the development server:
+```bash
+npm run dev
+```
+
+### Build
+
+Build for production:
 ```bash
 npm run build
 ```
- 
-## Deployment
 
-This project is configured to automatically deploy to GitHub Pages when pushing to the `main` branch.
+## 📦 Deployment
 
-1. Go to your repository **Settings** -> **Pages**.
-2. Under "Build and deployment", set **Source** to **GitHub Actions**.
-3. Push your code to the `main` branch.
-4. The deployment workflow will trigger automatically.
+This project is configured to automatically deploy to GitHub Pages using GitHub Actions.
+
+1. Push changes to the `main` branch.
+2. The `Deploy to GitHub Pages` workflow will run automatically.
+3. Once completed, the site will be available at your GitHub Pages URL.
+
+**Note:** Ensure GitHub Pages is enabled in your repository settings:
+- Go to Settings > Pages
+- Set Source to `GitHub Actions`
+
+## 🛠️ Technology Stack
+
+- React 18
+- TypeScript
+- Vite
+- Tailwind CSS
+
